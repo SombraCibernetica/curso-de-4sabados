@@ -1,12 +1,7 @@
-def suma(numero1: int ,numero2: str):
+def sum(a, b):
+    return (a + b)
 
-suma= numero1 + numero2
+a = int(input('Enter 1st number: '))
+b = int(input('Enter 2nd number: '))
 
-if( suma  % 2 == 0):
-    print("el numero es :",suma )
-    print("es par")
-else:
-    print("el numero es :",suma )
-    print("es impar")
-
-suma(4,4)
+print(f'Sum of {a} and {b} is {sum(a, b)}')
