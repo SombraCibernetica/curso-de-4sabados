@@ -7,14 +7,18 @@ students = [
         "id": 1,
         "username": "felixOchoa"
 },
-        {
+    {
         "id": 2,
         "username": "camiloPerez"
 },
     {
         "id": 3,
         "username": "andresPerez"
-} 
+},
+    {
+       "id": 4,
+        "username": "felipito"
+    } 
 ]
 @app.get("/")
 async def root():
